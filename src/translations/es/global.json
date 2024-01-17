@@ -1,0 +1,117 @@
+{
+   "header": {
+      "home": "Inicio",
+      "vacancies": "Vacantes",
+      "contact": "Contacto"
+    },
+    "home": {
+      "welcomeText1": "TRABAJO EN ISRAEL",
+      "description": "Para Hombres, Mujeres, Parejas",
+      "description2": "De 18 a 60 años",
+      "description3": "Alta Salario",
+      "description4": "Empleo oficial",
+      "contactButton": "Contacto",
+      "welcomeText2": "ACOMPAÑAMIENTO COMPLETO:",
+      "text": "-brindamos consultas sobre la compra de boletos",
+      "text2": "-brindamos consultas reservas de hotel",
+      "text3": "-recepción en el aeropuerto Ben Gurion",
+      "text4": "-proveemos alojamiento",
+      "text5": "-tramitación de documentos necesarios",
+      "text6": "-seguro médico",
+      "text7": "-entrevista, acceso al trabajo",
+      "vacanciesButton": "Vacantes"
+    },
+      "vacancies": {
+        "vacancies": "VACANTES",
+        "welcomeText": "Selección individual de vacantes para cada cliente",
+        "workHotel": "Trabajo en Hotel",
+        "workHospital": "Trabajo en Hospital",
+        "workElderly": "Trabajo en Residencia de Ancianos",
+        "workFox": "Trabajo en Almacenes de Ropa",
+        "workCleaning": "Limpieza de Oficinas",
+        "more": "Más"
+      },
+      "hotel": {
+        "title": "Trabajo en Hotel",
+        "text": "Pago de $10 a $12 por hora",
+        "text2": "Horas de trabajo: 220-250 al mes",
+        "text3": "VACANTES: Camareras, Meseros, Ayudante de Cocina, Limpieza del área",
+        "text4": "PROPORCIONAMOS: Alojamiento, Comida en el hotel, Seguro médico",
+        "david": "\"DAVID\" MAR MUERTO",
+        "brown": "\"BROWN\" TEL AVIV",
+        "isrotel": "\"ISROTEL\" EILAT",
+        "play": "\"PLAY\" TEL AVIV",
+        "royal": "\"ROYAL\" MAR MUERTO",
+        "selina": "\"SELINA\" TEL AVIV",
+        "contactButton": "Contacto"
+      },
+      "hospital": {
+        "title": "Trabajo en Hospital",
+        "text": "SE BUSCAN: Mujeres de 18 a 60 años para trabajar en el hospital",
+        "text2": "VACANTES: Limpieza de las salas, Ayudante de cocina",
+        "text3": "Turnos de 12 horas, 6 días a la semana",
+        "text4": "Pago de $10 por hora",
+        "text5": "Buenas condiciones de trabajo",
+        "text6": "Alta Salario",
+        "text7": "Empleo oficial",
+        "contactButton": "Contacto"
+      },
+      "elderly": {
+        "title": "Residencia de Ancianos",
+        "text": "SE BUSCAN: Hombres, Mujeres, Parejas para trabajar en una RESIDENCIA DE ANCIANOS",
+        "text2": "VACANTES: Cuidado de personas mayores, Ayudante de cocina",
+        "text3": "Pago de $10 a $12 por hora",
+        "text4": "Horas de trabajo: 220-250 al mes",
+        "text5": "Alojamiento, Comida en la pensión",
+        "text6": "Alta Salario",
+        "text7": "Buenas condiciones de trabajo",
+        "text8": "Empleo oficial",
+        "contactButton": "Contacto"
+      },
+      "fox": {
+        "title": "Trabajo en Almacenes de Ropa",
+        "text": "SE BUSCAN: Hombres, Mujeres, Parejas de 18 a 60 años para trabajar en Almacenes de Ropa",
+        "text2": "VACANTES: Empaque, Clasificación, Escáner, Conducción de carretilla elevadora",
+        "text3": "Pago de $10 por hora",
+        "text4": "Horas de trabajo: 220-250 al mes",
+        "text5": "Buenas condiciones de trabajo",
+        "text6": "Alta Salario",
+        "text7": "Buenas condiciones de trabajo",
+        "text8": "Empleo oficial",
+        "contactButton": "Contacto"
+      },
+      "cleaning": {
+        "title": "Limpieza de Oficinas",
+        "text": "SE BUSCAN: Mujeres de 18 a 60 años",
+        "text2": "VACANTE: Limpieza de oficinas",
+        "text3": "Pago de $10 por hora",
+        "text4": "Turno de 12 horas, 5 días a la semana",
+        "text5": "PROPORCIONAMOS: Comida + Transporte",
+        "text6": "Alta Salario",
+        "text7": "Buenas condiciones de trabajo",
+        "contactButton": "Contacto"
+      },
+    "contact": {
+      "header": "Contactos:",
+      "appointmentInfo": "Para obtener información detallada, comuníquese:",
+      "whatsappButton": "Contactarme (Whatsapp)",
+      "text": "Contáctanos",
+      "paragraph": "Ingrese sus datos y nos pondremos en contacto con usted",
+      "contactForm": {
+        "placeholderName": "Nombre",
+        "placeholderPhone": "Su teléfono",
+        "placeholderEmail": "Tu correo electrónico",
+        "socials": "¿Dónde prefieres comunicarte?",
+        "placeholderNationalities": "Selecciona o escribe tu nacionalidad",
+        "Nationalities": "Ucraniana",
+        "Nationalities2": "Argentina",
+        "Nationalities3": "Bielorrusa",
+        "Nationalities4": "Rusa",
+        "placeholderComment": "Comentarios",
+        "buttonSend": "Enviar",
+        "submissionSuccessMessage": "¡Gracias! Su mensaje ha sido enviado.",
+        "requiredFieldsMessage": "Por favor, complete los campos obligatorios: nombre y teléfono."
+      }
+    }
+  }
+  

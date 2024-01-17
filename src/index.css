@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+body {
+   overflow-x: hidden;
+ }
+
+.active {
+   color: #fff;
+   font-weight: bold;
+   border: 2px solid #8e8a8a; 
+   padding: 8px;
+ }
+
+
+.button {
+   --color: #00A97F;
+   padding: 0.8em 1.7em;
+   background-color: transparent;
+   border-radius: .3em;
+   position: relative;
+   overflow: hidden;
+   cursor: pointer;
+   transition: .5s;
+   font-weight: 400;
+   font-size: 17px;
+   border: 1px solid;
+   font-family: inherit;
+   text-transform: uppercase;
+   color: var(--color);
+   z-index: 1;
+  }
+  
+  .button::before, .button::after {
+   content: '';
+   display: block;
+   width: 50px;
+   height: 50px;
+   transform: translate(-50%, -50%);
+   position: absolute;
+   border-radius: 50%;
+   z-index: -1;
+   background-color: var(--color);
+   transition: 1s ease;
+  }
+  
+  .button::before {
+   top: -1em;
+   left: -1em;
+  }
+  
+  .button::after {
+   left: calc(100% + 1em);
+   top: calc(100% + 1em);
+  }
+  
+  .button:hover::before, .button:hover::after {
+   height: 410px;
+   width: 410px;
+  }
+  
+  .button:hover {
+   color: rgb(10, 25, 30);
+  }
+  
+  .button:active {
+   filter: brightness(.8);
+  }
+
+  span {
+   z-index: 1;
+ }
+ 
+ .maps {
+   z-index: 3;
+   position: relative; /* Додайте цей рядок */
+ }
+
+
+         
+ .btn-grad {
+   background-image: linear-gradient(to right, #134E5E 0%, #71B280  51%, #134E5E  100%);
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 5px #eee;
+   
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+
+
+
+@layer base {
+   .h1 {
+     @apply text-[32px] lg:text-[48px] font-bold font-primary  leading-[120%] tracking-[-0.05em] mb-2;
+   }
+   .h2 {
+     @apply text-[32px] lg:text-[48px] font-bold   leading-[120%] tracking-[-0.05em] mb-2;
+   }
+   .p{
+      @apply font-secondary
+   }
+   .section {
+      @apply w-screen;
+    }
+   .btn {
+     @apply py-[18px] px-[50px] h-[45px] lg:h-[66px] flex items-center justify-center text-base uppercase font-secondary font-semibold bg-pink-300 text-white;
+   }
+   .btn-link {
+    @apply text-base;
+  }
+   .text-gradient {
+    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#323030] to-[#e8e0e0] font-bold font-primary ;
+  }
+   .text-gradient2 {
+    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#529353] to-[#020000] font-bold hover:from-[#393535] hover:to-[#2cb02e];
+  }
+   .text-gradient3 {
+    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#060606] to-[#706c6c] font-bold font-primary hover:from-[#706c6c] hover:to-[#060606];
+  }
+ }
