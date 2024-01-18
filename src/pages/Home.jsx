@@ -5,9 +5,6 @@ import animationData from '../animation.json'
 //import link
 import { Link } from 'react-router-dom';
 
-// import images
-import Cargo from '../img/home/cargovan.png'
-
  //import motion
  import {motion} from 'framer-motion';
  //import transition
